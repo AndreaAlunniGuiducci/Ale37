@@ -1,0 +1,15 @@
+.level1 {
+  height: 100%;
+  position: relative;
+  .villain {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    transition: transform 2s ease-in;
+    transform: scale(0%);
+
+    &.showVillain {
+      transform: scale(500%);
+    }
+  }
+}

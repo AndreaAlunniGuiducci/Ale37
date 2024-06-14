@@ -1,0 +1,11 @@
+.header {
+  padding: 24px;
+  .heartWrapper {
+    display: flex;
+    gap: 12px;
+    .heart {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
