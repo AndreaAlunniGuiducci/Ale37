@@ -1,0 +1,29 @@
+.intro {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  .text {
+    font-size: 20px;
+  }
+  .targetVillain {
+    position: relative;
+    width: 50%;
+    .target {
+      position: absolute;
+      top: 15%;
+      width: 50%;
+      left: 32%;
+    }
+    .villain {
+      width: 100%;
+    }
+  }
+  .goToMissionCTA {
+    font-size: 24px;
+    padding: 12px;
+    border: 1px solid rgb(84, 81, 81);
+    border-radius: 16px;
+  }
+}
