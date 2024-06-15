@@ -19,7 +19,7 @@ export const Level1 = () => {
       const punchTheHero = setTimeout(() => {
         setShowVillain(false);
         dispatch(loseLife());
-      }, 2000);
+      }, 1500);
       setTImeoutId(punchTheHero);
     } else {
       const punchTheHero = setTimeout(() => {
@@ -28,7 +28,7 @@ export const Level1 = () => {
         const left = Math.floor(Math.random() * (80 - 20) + 20);
         setTopPosition(top);
         setLeftPosition(left);
-      }, 2000);
+      }, 1500);
       setTImeoutId(punchTheHero);
     }
   }, [showVillain]);
