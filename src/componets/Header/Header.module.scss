@@ -1,11 +1,17 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 24px;
   .heartWrapper {
     display: flex;
+    align-items: center;
     gap: 12px;
     .heart {
       width: 24px;
       height: 24px;
+    }
+    .points {
     }
   }
 }

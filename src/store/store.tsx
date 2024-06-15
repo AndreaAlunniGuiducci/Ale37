@@ -1,9 +1,11 @@
 import lifeSlice from "./slice/lifeSlice";
 import { configureStore } from "@reduxjs/toolkit";
+import pointsSlice from "./slice/pointsSlice";
 
 export const store = configureStore({
   reducer: {
     lifes: lifeSlice,
+    points: pointsSlice,
   },
 });
 

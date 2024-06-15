@@ -4,6 +4,7 @@ import city from "../../images/città_notte.jpg";
 import villain from "../../images/villain.png";
 import styles from "./Level1.module.scss";
 import { loseLife } from "../../store/slice/lifeSlice";
+import { addPoint } from "../../store/slice/pointsSlice";
 
 export const Level1 = () => {
   const dispatch = useAppDispatch();
@@ -38,6 +39,7 @@ export const Level1 = () => {
         onClick={() => {
           clearTimeout(timoutId);
           setShowVillain(false);
+          dispatch(addPoint());
         }}
         src={villain}
         className={`${styles.villain} ${showVillain && styles.showVillain}`}

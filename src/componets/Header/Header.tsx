@@ -1,15 +1,18 @@
-import styles from "./Header.module.scss";
-import heartFilled from "../../images/heart_filled.jpeg";
-import heartEmpty from "../../images/heart_empty.jpeg";
 import { useAppSelector } from "../../hooks";
+import heartEmpty from "../../images/heart_empty.jpeg";
+import heartFilled from "../../images/heart_filled.jpeg";
+import styles from "./Header.module.scss";
 
 interface headerProps {}
 
 export const Header = ({}: headerProps) => {
   const lifes = useAppSelector((store) => store.lifes);
+  const points = useAppSelector((store) => store.points);
+
   return (
     <div className={styles.header}>
       <div className={styles.heartWrapper}>
+        Vite:{" "}
         {Array(3)
           .fill("")
           .map((i, index) => {
@@ -23,6 +26,7 @@ export const Header = ({}: headerProps) => {
             );
           })}
       </div>
+      <div className={styles.points}>Punti: {points}</div>
     </div>
   );
 };
