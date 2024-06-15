@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ale37/static/css/main.9648d492.css",
-    "main.js": "/Ale37/static/js/main.c3e1c545.js",
+    "main.css": "/Ale37/static/css/main.4d697999.css",
+    "main.js": "/Ale37/static/js/main.cf7e821e.js",
     "static/js/453.57bc0edc.chunk.js": "/Ale37/static/js/453.57bc0edc.chunk.js",
     "static/media/super_ale_won.png": "/Ale37/static/media/super_ale_won.881da3432d7631f9be8b.png",
     "static/media/viaggio_compleanno.jpg": "/Ale37/static/media/viaggio_compleanno.b464e0c42ae61dc20651.jpg",
@@ -9,12 +9,12 @@
     "static/media/villain.png": "/Ale37/static/media/villain.26c3badae654474a9cf4.png",
     "static/media/super_ale_defeat.jpg": "/Ale37/static/media/super_ale_defeat.6354a28f12d39b9cfb51.jpg",
     "index.html": "/Ale37/index.html",
-    "main.9648d492.css.map": "/Ale37/static/css/main.9648d492.css.map",
-    "main.c3e1c545.js.map": "/Ale37/static/js/main.c3e1c545.js.map",
+    "main.4d697999.css.map": "/Ale37/static/css/main.4d697999.css.map",
+    "main.cf7e821e.js.map": "/Ale37/static/js/main.cf7e821e.js.map",
     "453.57bc0edc.chunk.js.map": "/Ale37/static/js/453.57bc0edc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9648d492.css",
-    "static/js/main.c3e1c545.js"
+    "static/css/main.4d697999.css",
+    "static/js/main.cf7e821e.js"
   ]
 }
